@@ -5,7 +5,7 @@ import { Flex, Title } from "@mantine/core";
 let socket;
 
 const Game = ({ name, gameId }) => {
-  const SERVER_ENDPOINT = "http://localhost:5001";
+  const SERVER_ENDPOINT = "https://game-app-server.vercel.app";
   const [winner, setWinner] = useState(null);
   const [player, setPlayer] = useState({});
   const [game, setGame] = useState({});
